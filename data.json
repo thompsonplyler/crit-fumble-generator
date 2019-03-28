@@ -1,0 +1,42 @@
+{
+"bludgeoning": [
+    {"1": "Crushed Trachea: Normal damage, and target cannot hear or speak. DC 20 Heal check ends condition."}, 
+    {"2": "Crushed Intentines: Normal damage and 1d4 Con (DC 15 Fort negates, save each round)"},
+    {"3": "Bone Masher: Normal damage and either 1d3 Dex damage and halve speed (leg) or 1d3 Str damage (arm) Limb useless until healed."}], 
+"piercing": [
+    {"1": "Momentum: Double damage and +2 on all your attack rolls for 1 round."}, 
+    {"2": "Grazing Hit: Normal damage and target is stunned for 1 round."},
+    {"3": "Lodged in the Bone: Double damage and 2 bleed. This bleed requires a DC 20 Heal check to stop."}],
+"slashing":[ 
+    {"1": "Rupture Abdominal Cavity: Double damage and 1 Con bleed."}, 
+    {"2": "Flay: Normal damage plus 1d6 Str damage"},
+    {"3": "Overhand Chop: Double damage and 1d4 bleed"}],
+"magic":[ 
+    {"1": "Normal damage and target sent to a random plane (Will negates)."}, 
+    {"2": "Double damage and +4 to your AC for 1 round."},
+    {"3": "Normal damage and target is reduced for 3 rounds (as Reduce person, Will negates)."}
+],
+"fmagic":[ 
+    {"1": "Normal damage and target sent to a random plane (Will negates)."}, 
+    {"2": "Double damage and +4 to your AC for 1 round."},
+    {"3": "Normal damage and target is reduced for 3 rounds (as Reduce person, Will negates)."}
+],
+"natural":[ 
+    {"1": "Normal damage and target sent to a random plane (Will negates)."}, 
+    {"2": "Double damage and +4 to your AC for 1 round."},
+    {"3": "Normal damage and target is reduced for 3 rounds (as Reduce person, Will negates)."}
+],
+"melee":[ 
+    {"1": "Normal damage and target sent to a random plane (Will negates)."}, 
+    {"2": "Double damage and +4 to your AC for 1 round."},
+    {"3": "Normal damage and target is reduced for 3 rounds (as Reduce person, Will negates)."}
+],
+"ranged":[ 
+    {"1": "Normal damage and target sent to a random plane (Will negates)."}, 
+    {"2": "Double damage and +4 to your AC for 1 round."},
+    {"3": "Normal damage and target is reduced for 3 rounds (as Reduce person, Will negates)."}
+]
+    }
+
+
+ 
