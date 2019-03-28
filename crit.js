@@ -43,7 +43,7 @@ cardTransition = (e,crit, backText, critType) => {
 
 
 critFetch = (e,crit, backText, critType) => {
-    fetch(`http://localhost:3001/api/v1/crits?category=${critType}`,{
+    fetch(`https://fierce-bastion-18567.herokuapp.com/api/v1/crits?category=${critType}`,{
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -60,7 +60,7 @@ critFetch = (e,crit, backText, critType) => {
 
 }   
 
-    makeCard = (critData,crit,backText, e) => {
+    makeCard = (critData,crit,backText) => {
         cardDisplay(critData, crit, backText) 
     }
 
