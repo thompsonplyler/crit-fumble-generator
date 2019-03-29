@@ -49,8 +49,8 @@ cardTransition = (e,crit, backText, critType, frontText) => {
 
 critFetch = (e,crit, backText, critType, frontText) => {
     console.log("e",e,"\n", "crit", crit,"\n", "backText", backText,"\n", "critType", critType,"\n", "frontText", frontText)
-    // fetch(`https://fierce-bastion-18567.herokuapp.com/api/v1/crits?category=${critType}`,{
-        fetch(`http://localhost:3001/api/v1/crits?category=${critType}`,{        
+    fetch(`https://fierce-bastion-18567.herokuapp.com/api/v1/crits?category=${critType}`,{
+        // fetch(`http://localhost:3001/api/v1/crits?category=${critType}`,{        
         method: "POST",
         headers: {
             "Content-Type": "application/json"
