@@ -104,11 +104,11 @@ body {
   padding: 10px
 }
 
-/* .card-front-vanish {
-  visibility: hidden;
-} */
-
 .card-front-vanish {
+  display: none;
+}
+
+/* .card-front-vanish {
   animation: fade 0.20s;
 }
 
@@ -117,7 +117,8 @@ body {
     opacity: 1
   }
   100% {
-    opacity: 0
+    opacity: 0;
+    display: none
   }
 
-}
+} */
